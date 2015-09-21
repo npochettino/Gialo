@@ -1,0 +1,15 @@
+C:\Users\Emiliano\Documents\git\Sempait\gialo\Gialo\BibliotecaGiallo\bin\Debug\BibliotecaGiallo.dll
+C:\Users\Emiliano\Documents\git\Sempait\gialo\Gialo\BibliotecaGiallo\bin\Debug\BibliotecaGiallo.pdb
+C:\Users\Emiliano\Documents\git\Sempait\gialo\Gialo\BibliotecaGiallo\obj\Debug\BibliotecaGiallo.csprojResolveAssemblyReference.cache
+C:\Users\Emiliano\Documents\git\Sempait\gialo\Gialo\BibliotecaGiallo\obj\Debug\BibliotecaGiallo.dll
+C:\Users\Emiliano\Documents\git\Sempait\gialo\Gialo\BibliotecaGiallo\obj\Debug\BibliotecaGiallo.pdb
+C:\Giallo\Gialo\BibliotecaGiallo\bin\Debug\BibliotecaGiallo.dll
+C:\Giallo\Gialo\BibliotecaGiallo\bin\Debug\BibliotecaGiallo.pdb
+C:\Giallo\Gialo\BibliotecaGiallo\obj\Debug\BibliotecaGiallo.dll
+C:\Giallo\Gialo\BibliotecaGiallo\obj\Debug\BibliotecaGiallo.pdb
+C:\Giallo\Gialo\BibliotecaGiallo\obj\Debug\BibliotecaGiallo.csprojResolveAssemblyReference.cache
+C:\Users\Nicolas\Downloads\Gialo_22092015\BibliotecaGiallo\bin\Debug\BibliotecaGiallo.dll
+C:\Users\Nicolas\Downloads\Gialo_22092015\BibliotecaGiallo\bin\Debug\BibliotecaGiallo.pdb
+C:\Users\Nicolas\Downloads\Gialo_22092015\BibliotecaGiallo\obj\Debug\BibliotecaGiallo.csprojResolveAssemblyReference.cache
+C:\Users\Nicolas\Downloads\Gialo_22092015\BibliotecaGiallo\obj\Debug\BibliotecaGiallo.dll
+C:\Users\Nicolas\Downloads\Gialo_22092015\BibliotecaGiallo\obj\Debug\BibliotecaGiallo.pdb

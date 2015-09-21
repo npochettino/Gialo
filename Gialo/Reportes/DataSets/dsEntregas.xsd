@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsEntregas" targetNamespace="http://tempuri.org/dsEntregas.xsd" xmlns:mstns="http://tempuri.org/dsEntregas.xsd" xmlns="http://tempuri.org/dsEntregas.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsEntregas" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsEntregas" msprop:Generator_UserDSName="dsEntregas">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Tanda" msprop:Generator_TableClassName="TandaDataTable" msprop:Generator_TableVarName="tableTanda" msprop:Generator_TablePropName="Tanda" msprop:Generator_RowDeletingName="TandaRowDeleting" msprop:Generator_RowChangingName="TandaRowChanging" msprop:Generator_RowEvHandlerName="TandaRowChangeEventHandler" msprop:Generator_RowDeletedName="TandaRowDeleted" msprop:Generator_UserTableName="Tanda" msprop:Generator_RowChangedName="TandaRowChanged" msprop:Generator_RowEvArgName="TandaRowChangeEvent" msprop:Generator_RowClassName="TandaRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Comentario" msprop:Generator_ColumnVarNameInTable="columnComentario" msprop:Generator_ColumnPropNameInRow="Comentario" msprop:Generator_ColumnPropNameInTable="ComentarioColumn" msprop:Generator_UserColumnName="Comentario" type="xs:string" minOccurs="0" />
+              <xs:element name="Articulo" msprop:Generator_ColumnVarNameInTable="columnArticulo" msprop:Generator_ColumnPropNameInRow="Articulo" msprop:Generator_ColumnPropNameInTable="ArticuloColumn" msprop:Generator_UserColumnName="Articulo" type="xs:string" minOccurs="0" />
+              <xs:element name="FechaInicio" msprop:Generator_ColumnVarNameInTable="columnFechaInicio" msprop:Generator_ColumnPropNameInRow="FechaInicio" msprop:Generator_ColumnPropNameInTable="FechaInicioColumn" msprop:Generator_UserColumnName="FechaInicio" type="xs:string" minOccurs="0" />
+              <xs:element name="FechaFin" msprop:Generator_ColumnVarNameInTable="columnFechaFin" msprop:Generator_ColumnPropNameInRow="FechaFin" msprop:Generator_ColumnPropNameInTable="FechaFinColumn" msprop:Generator_UserColumnName="FechaFin" type="xs:string" minOccurs="0" />
+              <xs:element name="Tipo" msprop:Generator_ColumnVarNameInTable="columnTipo" msprop:Generator_ColumnPropNameInRow="Tipo" msprop:Generator_ColumnPropNameInTable="TipoColumn" msprop:Generator_UserColumnName="Tipo" type="xs:string" minOccurs="0" />
+              <xs:element name="Talle" msprop:Generator_ColumnVarNameInTable="columnTalle" msprop:Generator_ColumnPropNameInRow="Talle" msprop:Generator_ColumnPropNameInTable="TalleColumn" msprop:Generator_UserColumnName="Talle" type="xs:string" minOccurs="0" />
+              <xs:element name="Cantidad" msprop:Generator_ColumnVarNameInTable="columnCantidad" msprop:Generator_ColumnPropNameInRow="Cantidad" msprop:Generator_ColumnPropNameInTable="CantidadColumn" msprop:Generator_UserColumnName="Cantidad" type="xs:string" minOccurs="0" />
+              <xs:element name="Color" msprop:Generator_ColumnVarNameInTable="columnColor" msprop:Generator_ColumnPropNameInRow="Color" msprop:Generator_ColumnPropNameInTable="ColorColumn" msprop:Generator_UserColumnName="Color" type="xs:string" minOccurs="0" />
+              <xs:element name="CodigoTanda" msprop:Generator_ColumnVarNameInTable="columnCodigoTanda" msprop:Generator_ColumnPropNameInRow="CodigoTanda" msprop:Generator_ColumnPropNameInTable="CodigoTandaColumn" msprop:Generator_UserColumnName="CodigoTanda" type="xs:string" minOccurs="0" />
+              <xs:element name="CodigoTandaItem" msprop:Generator_ColumnVarNameInTable="columnCodigoTandaItem" msprop:Generator_ColumnPropNameInRow="CodigoTandaItem" msprop:Generator_ColumnPropNameInTable="CodigoTandaItemColumn" msprop:Generator_UserColumnName="CodigoTandaItem" type="xs:string" minOccurs="0" />
+              <xs:element name="Taller" msprop:Generator_ColumnVarNameInTable="columnTaller" msprop:Generator_ColumnPropNameInRow="Taller" msprop:Generator_ColumnPropNameInTable="TallerColumn" msprop:Generator_UserColumnName="Taller" type="xs:string" minOccurs="0" />
+              <xs:element name="FechaInicioEntrega" msprop:Generator_ColumnVarNameInTable="columnFechaInicioEntrega" msprop:Generator_ColumnPropNameInRow="FechaInicioEntrega" msprop:Generator_ColumnPropNameInTable="FechaInicioEntregaColumn" msprop:Generator_UserColumnName="FechaInicioEntrega" type="xs:string" minOccurs="0" />
+              <xs:element name="FechaFinEntrega" msprop:Generator_ColumnVarNameInTable="columnFechaFinEntrega" msprop:Generator_ColumnPropNameInRow="FechaFinEntrega" msprop:Generator_ColumnPropNameInTable="FechaFinEntregaColumn" msprop:Generator_UserColumnName="FechaFinEntrega" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

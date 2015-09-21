@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{395D34A4-FB6E-4CF6-BC59-C5FEB4DFF38A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BibliotecaGiallo</RootNamespace>
+    <AssemblyName>BibliotecaGiallo</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FluentNHibernate, Version=2.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\FluentNHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="Iesi.Collections, Version=4.0.0.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Iesi.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate, Version=4.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Catalogos\CatalogoAdministrador.cs" />
+    <Compile Include="Catalogos\CatalogoArticulo.cs" />
+    <Compile Include="Catalogos\CatalogoColor.cs" />
+    <Compile Include="Catalogos\CatalogoEntrega.cs" />
+    <Compile Include="Catalogos\CatalogoGenerico.cs" />
+    <Compile Include="Catalogos\CatalogoTalle.cs" />
+    <Compile Include="Catalogos\CatalogoTaller.cs" />
+    <Compile Include="Catalogos\CatalogoTanda.cs" />
+    <Compile Include="Catalogos\CatalogoTandaItem.cs" />
+    <Compile Include="Catalogos\CatalogoTipo.cs" />
+    <Compile Include="Catalogos\CatalogoTipoTaller.cs" />
+    <Compile Include="ClasesComplementarias\ManejoNHibernate.cs" />
+    <Compile Include="Clases\Administrador.cs" />
+    <Compile Include="Clases\Articulo.cs" />
+    <Compile Include="Clases\Color.cs" />
+    <Compile Include="Clases\Entrega.cs" />
+    <Compile Include="Clases\EntregaItem.cs" />
+    <Compile Include="Clases\Talle.cs" />
+    <Compile Include="Clases\Taller.cs" />
+    <Compile Include="Clases\Tanda.cs" />
+    <Compile Include="Clases\TandaItem.cs" />
+    <Compile Include="Clases\Tipo.cs" />
+    <Compile Include="Clases\TipoTaller.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="Controladores\ControladorGeneral.cs" />
+    <Compile Include="Mapeos\AdministradorMap.cs" />
+    <Compile Include="Mapeos\ArticuloMap.cs" />
+    <Compile Include="Mapeos\ColorMap.cs" />
+    <Compile Include="Mapeos\EntregaItemMap.cs" />
+    <Compile Include="Mapeos\EntregaMap.cs" />
+    <Compile Include="Mapeos\TalleMap.cs" />
+    <Compile Include="Mapeos\TallerMap.cs" />
+    <Compile Include="Mapeos\TandaItemMap.cs" />
+    <Compile Include="Mapeos\TandaMap.cs" />
+    <Compile Include="Mapeos\TipoMap.cs" />
+    <Compile Include="Mapeos\TipoTallerMap.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

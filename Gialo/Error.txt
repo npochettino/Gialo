@@ -1,0 +1,12 @@
+Error: 21/09/2015 11:21:36 a.m.
+INNER EXCEPTION: 
+STACK TRACE:    en System.Data.DataColumnCollection.RegisterColumnName(String name, DataColumn column)
+   en System.Data.DataColumnCollection.BaseAdd(DataColumn column)
+   en System.Data.DataColumnCollection.AddAt(Int32 index, DataColumn column)
+   en System.Data.DataColumnCollection.Add(String columnName)
+   en BibliotecaGiallo.Controladores.ControladorGeneral.RecuperarTodasEntregasPorTanda(Int32 codigoTanda) en c:\Giallo\Gialo\BibliotecaGiallo\Controladores\ControladorGeneral.cs:línea 1307
+MESSAGE: La columna 'codigoTanda' ya pertenece a DataTable.
+SOURCE: System.Data
+TARGET SIZE: Void RegisterColumnName(System.String, System.Data.DataColumn)
+HRESULT: -2146232030
+-------------------------------------------------

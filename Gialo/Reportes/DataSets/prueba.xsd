@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="prueba" targetNamespace="http://tempuri.org/prueba.xsd" xmlns:mstns="http://tempuri.org/prueba.xsd" xmlns="http://tempuri.org/prueba.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="prueba" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="prueba" msprop:Generator_UserDSName="prueba">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="prueba" msprop:Generator_TableClassName="pruebaDataTable" msprop:Generator_TableVarName="tableprueba" msprop:Generator_TablePropName="_prueba" msprop:Generator_RowDeletingName="pruebaRowDeleting" msprop:Generator_RowChangingName="pruebaRowChanging" msprop:Generator_RowEvHandlerName="pruebaRowChangeEventHandler" msprop:Generator_RowDeletedName="pruebaRowDeleted" msprop:Generator_UserTableName="prueba" msprop:Generator_RowChangedName="pruebaRowChanged" msprop:Generator_RowEvArgName="pruebaRowChangeEvent" msprop:Generator_RowClassName="pruebaRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="prueba" msprop:Generator_ColumnVarNameInTable="columnprueba" msprop:Generator_ColumnPropNameInRow="prueba" msprop:Generator_ColumnPropNameInTable="pruebaColumn" msprop:Generator_UserColumnName="prueba" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

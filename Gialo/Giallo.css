@@ -1,0 +1,73 @@
+﻿/***Estilos grillas***/
+
+.dxgvEditFormCaption {
+    display: inline-block;
+}
+
+.dxgvEditFormCaption_Metropolis {
+    display: inline-block;
+}
+
+.dxgvEditFormCaption_MetropolisBlue {
+    display: inline-block;
+}
+
+.dxgvEditFormCell {
+    margin-left: 10px;
+}
+
+dxgvEditFormCell_Metropolis {
+    margin-left: 10px;
+}
+
+dxgvEditFormCell_MetropolisBlue {
+    margin-left: 10px;
+}
+
+/*.dxgvEditFormTable td:not(.dxgvCommandColumn) {
+    float: left;
+}
+
+.dxgvEditFormTable_Metropolis td:not(.dxgvCommandColumn_Metropolis) {
+    float: left;
+}
+
+.dxgvEditFormTable_MetropolisBlue td:not(.dxgvCommandColumn_MetropolisBlue) {
+    float: left;
+}*/
+
+.dxgvTitlePanel_MetropolisBlue {
+    background-color: #4C7593;
+    color: black;
+}
+.dxgvTitlePanel_Metropolis {
+    background-color: #DF561B;
+    color: black !important;
+}
+/**** Estilos Formato master page*****/
+.page-footer-inner {
+    margin: auto;
+    width: 160px;
+    float: none !important;
+    display: block !important;
+}
+
+.page-sidebar .sidebar-toggler {
+    margin-right: 0px;
+}
+
+.page-header-fixed .page-container {
+    margin-top: 32px;
+}
+.page-header.navbar {
+    background-color: #FD3400;
+}
+.page-header.navbar .page-logo .logo-default {
+    margin-top:10px;
+}
+#lblUsuario {
+    color: white;
+}
+body {
+    background-color:#364150;
+}

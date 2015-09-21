@@ -1,0 +1,8 @@
+Error: 18/09/2015 16:15:10
+INNER EXCEPTION: 
+STACK TRACE:    en BibliotecaGiallo.Controladores.ControladorGeneral.RecuperarTodasEntregasPorTanda(Int32 codigoTanda) en c:\Giallo\Gialo\BibliotecaGiallo\Controladores\ControladorGeneral.cs:línea 1275
+MESSAGE: Se produjo una excepción de tipo 'System.Exception'.
+SOURCE: BibliotecaGiallo
+TARGET SIZE: System.Data.DataTable RecuperarTodasEntregasPorTanda(Int32)
+HRESULT: -2146233088
+-------------------------------------------------
